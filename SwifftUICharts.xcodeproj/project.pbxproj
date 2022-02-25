@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		BE543CB827C99AF9002F9F06 /* SwifftUIChartsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE543CB727C99AF9002F9F06 /* SwifftUIChartsApp.swift */; };
-		BE543CBA27C99AF9002F9F06 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE543CB927C99AF9002F9F06 /* ContentView.swift */; };
+		BE543CBA27C99AF9002F9F06 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE543CB927C99AF9002F9F06 /* ActivityView.swift */; };
 		BE543CBC27C99AFB002F9F06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE543CBB27C99AFB002F9F06 /* Assets.xcassets */; };
 		BE543CBF27C99AFB002F9F06 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE543CBE27C99AFB002F9F06 /* Preview Assets.xcassets */; };
 		BE543CC927C99AFB002F9F06 /* SwifftUIChartsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE543CC827C99AFB002F9F06 /* SwifftUIChartsTests.swift */; };
 		BE543CD327C99AFB002F9F06 /* SwifftUIChartsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE543CD227C99AFB002F9F06 /* SwifftUIChartsUITests.swift */; };
 		BE543CD527C99AFB002F9F06 /* SwifftUIChartsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE543CD427C99AFB002F9F06 /* SwifftUIChartsUITestsLaunchTests.swift */; };
+		BE543CE227C99B17002F9F06 /* BarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE543CE127C99B17002F9F06 /* BarView.swift */; };
+		BE543CE427C99BDB002F9F06 /* BarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE543CE327C99BDB002F9F06 /* BarChartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,7 @@
 /* Begin PBXFileReference section */
 		BE543CB427C99AF9002F9F06 /* SwifftUICharts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwifftUICharts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE543CB727C99AF9002F9F06 /* SwifftUIChartsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwifftUIChartsApp.swift; sourceTree = "<group>"; };
-		BE543CB927C99AF9002F9F06 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BE543CB927C99AF9002F9F06 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
 		BE543CBB27C99AFB002F9F06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE543CBE27C99AFB002F9F06 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BE543CC427C99AFB002F9F06 /* SwifftUIChartsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwifftUIChartsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +46,8 @@
 		BE543CCE27C99AFB002F9F06 /* SwifftUIChartsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwifftUIChartsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE543CD227C99AFB002F9F06 /* SwifftUIChartsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwifftUIChartsUITests.swift; sourceTree = "<group>"; };
 		BE543CD427C99AFB002F9F06 /* SwifftUIChartsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwifftUIChartsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BE543CE127C99B17002F9F06 /* BarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarView.swift; sourceTree = "<group>"; };
+		BE543CE327C99BDB002F9F06 /* BarChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +99,9 @@
 			isa = PBXGroup;
 			children = (
 				BE543CB727C99AF9002F9F06 /* SwifftUIChartsApp.swift */,
-				BE543CB927C99AF9002F9F06 /* ContentView.swift */,
+				BE543CB927C99AF9002F9F06 /* ActivityView.swift */,
+				BE543CE127C99B17002F9F06 /* BarView.swift */,
+				BE543CE327C99BDB002F9F06 /* BarChartView.swift */,
 				BE543CBB27C99AFB002F9F06 /* Assets.xcassets */,
 				BE543CBD27C99AFB002F9F06 /* Preview Content */,
 			);
@@ -257,8 +263,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE543CBA27C99AF9002F9F06 /* ContentView.swift in Sources */,
+				BE543CE227C99B17002F9F06 /* BarView.swift in Sources */,
+				BE543CBA27C99AF9002F9F06 /* ActivityView.swift in Sources */,
 				BE543CB827C99AF9002F9F06 /* SwifftUIChartsApp.swift in Sources */,
+				BE543CE427C99BDB002F9F06 /* BarChartView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -16,6 +16,10 @@
 		BE543CD527C99AFB002F9F06 /* SwifftUIChartsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE543CD427C99AFB002F9F06 /* SwifftUIChartsUITestsLaunchTests.swift */; };
 		BE543CE227C99B17002F9F06 /* BarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE543CE127C99B17002F9F06 /* BarView.swift */; };
 		BE543CE427C99BDB002F9F06 /* BarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE543CE327C99BDB002F9F06 /* BarChartView.swift */; };
+		BE543CE627CA2B1A002F9F06 /* LineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE543CE527CA2B1A002F9F06 /* LineView.swift */; };
+		BE543CE827CA2DBC002F9F06 /* LineChartCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE543CE727CA2DBC002F9F06 /* LineChartCircleView.swift */; };
+		BE543CEA27CA3069002F9F06 /* LineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE543CE927CA3069002F9F06 /* LineChartView.swift */; };
+		BE543CEC27CA3125002F9F06 /* HeartRateview.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE543CEB27CA3125002F9F06 /* HeartRateview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,10 @@
 		BE543CD427C99AFB002F9F06 /* SwifftUIChartsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwifftUIChartsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		BE543CE127C99B17002F9F06 /* BarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarView.swift; sourceTree = "<group>"; };
 		BE543CE327C99BDB002F9F06 /* BarChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartView.swift; sourceTree = "<group>"; };
+		BE543CE527CA2B1A002F9F06 /* LineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineView.swift; sourceTree = "<group>"; };
+		BE543CE727CA2DBC002F9F06 /* LineChartCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartCircleView.swift; sourceTree = "<group>"; };
+		BE543CE927CA3069002F9F06 /* LineChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartView.swift; sourceTree = "<group>"; };
+		BE543CEB27CA3125002F9F06 /* HeartRateview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +86,8 @@
 		BE543CAB27C99AF9002F9F06 = {
 			isa = PBXGroup;
 			children = (
+				BE543CEB27CA3125002F9F06 /* HeartRateview.swift */,
+				BE543CE927CA3069002F9F06 /* LineChartView.swift */,
 				BE543CB627C99AF9002F9F06 /* SwifftUICharts */,
 				BE543CC727C99AFB002F9F06 /* SwifftUIChartsTests */,
 				BE543CD127C99AFB002F9F06 /* SwifftUIChartsUITests */,
@@ -101,6 +111,8 @@
 				BE543CB727C99AF9002F9F06 /* SwifftUIChartsApp.swift */,
 				BE543CB927C99AF9002F9F06 /* ActivityView.swift */,
 				BE543CE127C99B17002F9F06 /* BarView.swift */,
+				BE543CE527CA2B1A002F9F06 /* LineView.swift */,
+				BE543CE727CA2DBC002F9F06 /* LineChartCircleView.swift */,
 				BE543CE327C99BDB002F9F06 /* BarChartView.swift */,
 				BE543CBB27C99AFB002F9F06 /* Assets.xcassets */,
 				BE543CBD27C99AFB002F9F06 /* Preview Content */,
@@ -264,8 +276,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE543CE227C99B17002F9F06 /* BarView.swift in Sources */,
+				BE543CEC27CA3125002F9F06 /* HeartRateview.swift in Sources */,
+				BE543CE827CA2DBC002F9F06 /* LineChartCircleView.swift in Sources */,
 				BE543CBA27C99AF9002F9F06 /* ActivityView.swift in Sources */,
+				BE543CEA27CA3069002F9F06 /* LineChartView.swift in Sources */,
 				BE543CB827C99AF9002F9F06 /* SwifftUIChartsApp.swift in Sources */,
+				BE543CE627CA2B1A002F9F06 /* LineView.swift in Sources */,
 				BE543CE427C99BDB002F9F06 /* BarChartView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
